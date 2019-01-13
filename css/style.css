@@ -1,0 +1,75 @@
+ul.nav-links a {
+    color: black;
+}
+
+.logo-text {
+    color: black !important;
+    font-size: 20pt;
+}
+
+.logo-text span {
+    color: rgb(39, 39, 39);
+    font-size: 16pt;
+}
+
+.hamburger {
+    color: black;
+}
+
+.dark-gray-text {
+    color: rgb(42, 42, 42);
+}
+
+.darkImg {
+    filter: brightness(50%);
+}
+
+.slider .btn {
+    margin-top: 20px;
+}
+
+.contactInfo {
+    margin-bottom: 50px;
+}
+
+.prestige {
+    font-size: 14pt;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.cardImg {
+    width: 400px;
+    margin: auto;
+}
+
+.cardImg img {
+    height: 300px;
+    width: fit-content;
+}
+
+.infoCard {
+    border: 1px solid grey;
+    padding: 15px;
+}
+
+@media only screen and (max-width: 480px) {
+    .logo-text {
+        color: black !important;
+        font-size: 16pt;
+    }
+    .logo-text span {
+        color: rgb(39, 39, 39);
+        font-size: 12pt;
+    }
+    .cardImg img {
+        height: 250px;
+        width: fit-content;
+    }
+    .cardImg {
+        width: 350px;
+        margin: auto;
+    }
+}
