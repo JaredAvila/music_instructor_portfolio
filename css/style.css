@@ -1,3 +1,7 @@
+body {
+    background-image: linear-gradient(to bottom right, black, rgb(126, 126, 126));
+}
+
 ul.nav-links a {
     color: black;
 }
@@ -63,6 +67,38 @@ ul.nav-links a {
     padding: 0 60px;
 }
 
+#contact-form {
+    padding: 10px;
+    border: 1px solid grey;
+}
+
+span.seconds {
+    font-size: 12pt !important;
+}
+
+.fab {
+    margin-left: 25px !important;
+}
+
+.solidImg {
+    height: 300px;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 8px black;
+}
+
+.goldenText {
+    color: rgba(255, 219, 59, 0.76) !important;
+}
+
+.resourceLinks {
+    color: rgba(255, 219, 59, 0.76) !important;
+    transition: all 250ms ease;
+}
+
+.resourceLinks:hover {
+    color: rgba(255, 219, 59, 0.383) !important;
+}
+
 @media only screen and (max-width: 480px) {
     .logo-text {
         color: black !important;
@@ -79,5 +115,11 @@ ul.nav-links a {
     .cardImg {
         width: 350px;
         margin: auto;
+    }
+    .logo-text span {
+        display: none;
+    }
+    .contactImg {
+        display: none;
     }
 }
